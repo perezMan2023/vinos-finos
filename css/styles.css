@@ -1,0 +1,142 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto&family=Roboto+Slab&display=swap');
+
+    body{
+        font-family: 'Roboto';
+    }
+    header .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    li{
+        list-style: none;
+    }  
+    .container{
+        max-width: 1280px;
+        width: 90%;
+        margin: 20px;
+    }
+    header ul{
+        display: flex;
+    }
+    header ul li {
+        margin-right: 20px;
+    }
+    header p {
+        font-weight: 500;
+        font-size: 20px;
+    }
+    nav :hover{
+        background: #cac2c2;;
+        color:#bd3838;
+        transition: .4s;
+        border-radius: 30px;
+    }
+    #encabezado{
+        background: url(/img/vino1_fotos.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 70px 0;
+    }  
+    h1{
+        font-size: 60px;
+        font-family: 'Lora';
+        color: #380400;
+        margin-bottom: 0;
+        
+    }
+    #encabezado p{
+        width: 70%;
+        color: rgb(255, 255, 255);
+        margin-bottom: 50px;
+        font-size: 30px;
+        text-align: center;
+    }
+  
+
+    #encabezado a, #contact a{
+        text-decoration: none;
+        color:#bd3838;
+        border: 2px solid #cac2c2;
+        padding: 10px 40px 20px 40px;
+        font-weight: bold;
+    }
+    #encabezado a:hover,
+    #contact a:hover{
+        background: #cac2c2;
+        color:#bd3838;
+        transition: .4s;
+    }
+    nav a{
+        text-decoration: none;
+        font-size: 20px;
+        color:black;
+    }
+                            /* INICIO slider */
+    #container{
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+       margin:0 0 0 50px;
+    }                 
+                            /* FIN slider */
+
+                    /*----INICIO COLUMNAS -----*/
+    .container h2{
+        text-align: center;
+    }
+    .columnas{
+        display: grid;
+    }
+    .columna img{
+        width: 20%;
+    }
+    .columana p{
+        color:#380400;
+    }
+                    /* ----FIN COLUMNAS------ */
+
+
+                    /*----INICIO SECTION CONTAC--- */
+    #contact{
+        display: flex;
+        justify-content: center;
+        background: url(/img/fondo.jpg);
+        background-size: cover;
+        padding: 80px 0;
+    }
+    #contact .izquierdo{
+        width: 60%;
+    }
+    #contact h2{
+        font-size: 60px;
+        font-family: 'Lora';
+        color: #e4e007;
+        margin-bottom: 50px;
+    }
+    #contact .izquierdo p{
+        font-size: 14px;
+        color: #cfc8c8;
+        margin-top: 40px;
+    }
+   .iconos{
+    display: grid;
+    grid-template-columns: 1fr,1fr;
+    left: -30px ;
+    
+   }
+    #contact .derecha{
+        background: #380400;
+        color: #fff;
+        padding: 50px 30px;
+    }
+                    /* -----FIN SECTION CONTAC ------*/
+    .datos{
+        font-size: 20px;
+    }
+    .derecha h3{
+        font-size: 40px;
+    }
+    
+    
