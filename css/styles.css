@@ -8,15 +8,17 @@
     header .container{
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     li{
         list-style: none;
     }  
     .container{
         max-width: 1280px;
-        width: 90%;
+        width: 100%;
         margin: 20px;
     }
+    
     header ul{
         display: flex;
     }
@@ -39,22 +41,23 @@
         background-position: center;
         padding: 70px 0;
     }  
-    h1{
-        font-size: 60px;
+
+    .container h1{
+        font-size: 90px;
         font-family: 'Lora';
-        color: #380400;
-        margin-bottom: 0;
-        
+        text-align: center;
+        background-color: #ae5a5a;
+        text-shadow: 2px 2px red;   
     }
     #encabezado p{
-        width: 70%;
+        text-align: justify;
+        width: 80%;
         color: rgb(255, 255, 255);
         margin-bottom: 50px;
         font-size: 30px;
-        text-align: center;
+        text-shadow: 2px 2px rgb(212, 72, 72); 
+        
     }
-  
-
     #encabezado a, #contact a{
         text-decoration: none;
         color:#bd3838;
@@ -68,6 +71,13 @@
         color:#bd3838;
         transition: .4s;
     }
+     #logo img{
+        width: 90px;
+        height: 90px;
+        box-shadow: 10px 10px rgb(154, 183, 192);
+       
+    }
+       
     nav a{
         text-decoration: none;
         font-size: 20px;
@@ -78,7 +88,7 @@
         display:grid;
         grid-template-columns: repeat(4, 1fr);
         align-items: center;
-       margin:0 0 0 50px;
+        margin:0 0 0 50px;
     }                 
                             /* FIN slider */
 
@@ -116,22 +126,42 @@
         margin-bottom: 50px;
     }
     #contact .izquierdo p{
-        font-size: 14px;
+        font-size: 20px;
         color: #cfc8c8;
-        margin-top: 40px;
+        margin: 40px;
     }
    .iconos{
     display: grid;
-    grid-template-columns: 1fr,1fr;
-    left: -30px ;
-    
-   }
+    grid-template-rows: 1fr,1fr;
+    justify-content: space-around;
+    margin-left: 30px;
+    max-width: 100px;
+    }
     #contact .derecha{
-        background: #380400;
+       background: #380400;
         color: #fff;
         padding: 50px 30px;
     }
-                    /* -----FIN SECTION CONTAC ------*/
+    .logo img{
+        position: relative;
+        right: -150px;
+        max-width: 100px;
+        height: 100px;
+        box-shadow: 10px 10px lightblue;
+    }
+    .guardas{
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+        margin:0, 1000px, 0, 0;
+    }
+    .guardas img{
+      width: 100px;
+      height: 100px;
+    }
+    
+ 
+                /* -----FIN SECTION CONTAC ------*/
     .datos{
         font-size: 20px;
     }
